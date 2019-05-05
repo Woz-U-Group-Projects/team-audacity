@@ -4,7 +4,7 @@ npm install
 # Install dependencies for Front-end (React)
 npm run client-install
 
-# Run the client & server with concurrently
+# Run React & Express with concurrently
 npm run dev
 
 # Run the Express server only
