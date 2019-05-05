@@ -1,7 +1,7 @@
-# Install dependencies for server
+# Install dependencies for Back-End (Express)
 npm install
 
-# Install dependencies for client
+# Install dependencies for Front-end (React)
 npm run client-install
 
 # Run the client & server with concurrently
