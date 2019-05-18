@@ -23,10 +23,10 @@ const port = 5000;
 app.listen(port, () => `Server running on port ${port}`);
 
 
-var mongoDB = "mongodb://127.0.01/database";
+const mongoDB = "mongodb://127.0.01/database";
 mongoose.connect(mongDB, { useNewUrlParser: true });
 mongoose.Promise = global.Promise;
-var db = mongoose.connection;
+const db = mongoose.connection;
 db.on("connected", () => console.log('Mongoose connection open to ${mongoDB}'));
 db.on("disconnected", () => console.log("Mongoose connection disconnected"));
 db.on("error", console.error.bind(console, "Mongoose connection error:"));
