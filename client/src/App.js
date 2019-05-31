@@ -4,7 +4,7 @@ import './App.css';
 import axios from "axios";
 import Customers from './components/customers';
 
-class App extends Component {
+class Apps extends Component {
   state = {
     fruit: [],
     newFruit: ""
