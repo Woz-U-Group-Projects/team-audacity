@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://annie123:annie123@storyarcadia-tflpj.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "",
+  "githubSecret": ""
+}
