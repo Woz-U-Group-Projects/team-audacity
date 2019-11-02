@@ -20,6 +20,6 @@
     "concurrently": "^3.5.1",
     "express": "^4.16.2",
     "mongodb": "3.2.5",
-    "mongoose": "5.5.9"
+    "mongoose": "5.7.7"
   }
 }
